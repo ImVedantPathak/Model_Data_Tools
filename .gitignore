@@ -1,0 +1,10 @@
+AdminComs/
+Archive/
+GutenbergBooks/
+_pycache_/
+*.py[cod]
+SyntheticDataGenerator/_pycache_/
+SyntheticDataGenerator/conversations.json
+SyntheticDataGenerator/conversations2.json
+SyntheticDataGenerator/creative_prompts.py
+SyntheticDataGenerator/prompts.py
