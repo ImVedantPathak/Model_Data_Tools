@@ -3,7 +3,7 @@ from bs4 import BeautifulSoup
 from measure_bit_rate import measure_bit_Rate
 from AdminComs import STORM_SDK as STORM
 
-@measure_bit_Rate
+
 def gutenberg_data(books:int,gap:int):
     for book in range(gap,gap+books):
         url = f"https://www.gutenberg.org/cache/epub/{book}/pg{book}.html"
@@ -19,6 +19,7 @@ def gutenberg_data(books:int,gap:int):
                 f.write(soup.prettify())
             
             # return html    
+            # @measure_bit_Rate # only for pipeline
             # STORM.send_to_pipeline_instance(soup)
             
         except requests.exceptions.RequestException as e:
