@@ -8,3 +8,6 @@ SyntheticDataGenerator/conversations.json
 SyntheticDataGenerator/conversations2.json
 SyntheticDataGenerator/creative_prompts.py
 SyntheticDataGenerator/prompts.py
+venv/
+wikipedia_corpus/
+CommonCrawl/_pycache_/
